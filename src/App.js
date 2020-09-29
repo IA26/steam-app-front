@@ -5,7 +5,7 @@ import {Switch, Route, withRouter, Redirect} from 'react-router-dom'
 class App extends React.Component {
 
   componentDidMount() {
-    fetch(`https://partner-api.yelp.com/v1/business_info/`)
+    fetch(``)
     .then(r => r.json())
     .then((applist) => 
       this.setState({
